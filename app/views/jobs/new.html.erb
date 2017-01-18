@@ -2,8 +2,8 @@
 
 <%= simple_form_for @job do |f| %>
 
-<%= f.input :title %>
-<%= f.input :description %>
+<%= f.input :title, label: "名称"%>
+<%= f.input :description, label: "描述" %>
 
-  <%= f.submit "Submit" %>
+  <%= f.submit "完成添加"%>
 <% end %>
